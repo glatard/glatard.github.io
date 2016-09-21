@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#232323;
+    color:#922338;
   margin:36px 0 10px;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3 {
 
 h1,h2, h3 {
 	display: block;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #c9a859;
 	padding-bottom: 5px;
 }
 
@@ -148,7 +148,6 @@ img {
   max-width: 650px;
   padding: 5px;
   margin: 10px 0 32px 0;
-  border: 1px solid #ccc;
 }
 
 p img {
@@ -193,8 +192,8 @@ table {
 
 th {
   font-family: 'Arvo', Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: normal;
+  font-size: 18px;
+  font-weight: normal;
   padding: 10px;
   background: #232323;
   color: #FDFEFB;
@@ -202,7 +201,7 @@ th {
 
 td {
   padding: 10px;
-	background: #ccc;
+  background: #ccc;
  }
 
 
@@ -215,21 +214,21 @@ td {
 /* Header */
 
 header {
-	background-color: #171717;
-	color: #FDFDFB;
-  width:170px;
-  float:left;
-  position:fixed;
-	border: 1px solid #000;
-	-webkit-border-top-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	-moz-border-radius-bottomright: 4px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	padding: 34px 25px 22px 50px;
-	margin: 30px 25px 0 0;
-	-webkit-font-smoothing: antialiased;
+    background-color: #922338;
+    color: #FDFDFB;
+    width:170px;
+    float:left;
+    position:fixed;
+    border: 1px solid #c9a859;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 34px 25px 22px 50px;
+    margin: 30px 25px 0 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 p.header {
@@ -237,7 +236,7 @@ p.header {
 }
 
 h1.header {
-	font-family: Arvo, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.3em;
@@ -421,3 +420,18 @@ footer {
     color:#444;
   }
 }
+
+#first {
+    float:left;
+    width:90%;
+    margin-right: 5%;
+}
+#second {
+    float:left;
+    width:5%;
+    height:10px;
+}
+
+/* .twitter-timeline { */
+/*     height: 450px !important; */
+/* } */
